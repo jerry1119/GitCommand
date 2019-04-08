@@ -1,9 +1,14 @@
 ﻿1.学一下基本命令
-	01 git  init 					 :初始化git
-	02 git	add -A 				 	 :添加文件 
-	03 git 	commit -m "提示信息" 	  :提交
-	04 git  status					 :查看状态
-	05 git 	log				 		 :查看记录
-	06 git 	diff					 :查看跟前一次记录有哪些变化
-	07 git 	checkout -- .			 :将新添加的变化删掉，回到了前一次的状态
+	01 git  init 					 	:初始化git
+	02 git	add -A 				 	 	:添加文件 
+	03 git 	commit -m "提示信息" 	  	 :提交
+	04 git  status					 	:查看状态
+	05 git 	log				 		 	:查看记录
+	06 git 	diff					 	:查看跟前一次记录有哪些变化
+	07 git 	checkout -- .			 	:将新添加的变化删掉，回到了前一次的状态
+	08 git  reset --hard 1234567	 	:将版本回滚到指定的版本号，1234567指的是版本号的前7位，
+										 并且删除这个版本号后所有记录,也就是说 git log都看不到
+										 想要找回的话需要先git relog找到版本号 再 reset --hard 1234567
+	09 git  relog						:查看所有的版本记录
+	
 	
