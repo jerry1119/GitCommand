@@ -1,1 +1,9 @@
 1.学一下基本命令
+	01 git  init 				 :初始化git
+	02 git	add -A 				 :添加文件 
+	03 git 	commit -m "提示信息" 		 :提交
+	04 git  status				 :查看状态
+	05 git 	log				 :查看记录
+	06 git 	diff			:查看跟前一次记录有哪些变化
+	07 git 	checkout -- .		:将新添加的变化删掉，回到了前一次的状态
+	
