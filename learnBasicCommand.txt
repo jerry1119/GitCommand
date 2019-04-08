@@ -21,4 +21,4 @@
 	16 git remote add origin "GitHub上面创建的仓库的ssh地址"  ：将本地仓库和远程仓库关联
 	17 git push -u origin master		：将本地仓库上传到远程仓库并关联
 	18 git push 						: 将本地的commit 同步到远程
-	19 git pull origin master			: 远程仓库有licens或readme的情况下，要执行这个后才能push
+	19 git pull origin master			: 远程仓库有licens或readme的情况下，要执行这个把远程的复制下来后才能push
