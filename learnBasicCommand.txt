@@ -10,5 +10,14 @@
 										 并且删除这个版本号后所有记录,也就是说 git log都看不到
 										 想要找回的话需要先git relog找到版本号 再 reset --hard 1234567
 	09 git  relog						:查看所有的版本记录
-	
-	
+	10 git 	clean -xf					：杀伤力很强，将所有未追踪的文件删除
+	11 git 	config --global core.quoepath false		:解决文件名中文乱码  好像没啥用，还是直接option里设置好了
+	12 git	config --global i18n.commitencoding utf-8	
+	   git config --global i18n.logoutputencoding utf-8  ：解决git log乱码
+	13 git config --global user.name "你的用户名"	：设置用户名邮箱
+	   git config --global user.email "你的邮箱"
+	14 ssh-keygen -t rsa -C "你的邮箱"				：生成ssh key
+	15 clip < ~/.ssh/id_rsa.pub			:将生成的ssh key复制到粘贴板
+	16 git remote add origin "GitHub上面创建的仓库的ssh地址"  ：将本地仓库和远程仓库关联
+	17 git push -u origin master		：将本地仓库上传到远程仓库并关联
+	18 git push 						: 将本地的commit 同步到远程
